@@ -1,0 +1,21 @@
+var string=["hi guvi! how are you?"]; //anonymous function
+function titleCapse(){
+      var a= string[0].toLowerCase().split(" ");
+      for(var i = 0; i< a.length; i++){
+         a[i] = a[i][0].toUpperCase() + a[i].slice(1);
+      }
+   console.log(a.join(" ").split(","));
+   return a;
+   }titleCapse();
+
+   //*********//
+   
+   (function() { //IIFE function
+  var message = "hi geek! how are you?";
+ var a= message.toLowerCase().split(" ");
+      for(var i = 0; i< a.length; i++){
+         a[i] = a[i][0].toUpperCase() + a[i].slice(1);
+      }
+   console.log(a.join(" ").split(","));
+   return a;
+})();
