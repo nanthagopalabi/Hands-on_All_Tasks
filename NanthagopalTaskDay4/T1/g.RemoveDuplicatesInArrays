@@ -1,0 +1,16 @@
+(function() {   //Using IIFE function
+  let arr = [1,3,4,4,5,5,9,10];
+let removeDuplicates = [...new Set(arr)];
+console.log("Using IIFE function :");
+console.log(removeDuplicates);
+})();
+
+//**********//
+
+function name() {   //Using anonymous function 
+ let arr =[1,3,4,4,5,5,9,10];
+let removeDuplicates = [...new Set(arr)];
+  console.log("Using anonymous function :");
+console.log(removeDuplicates);
+}
+name();

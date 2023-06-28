@@ -1,0 +1,33 @@
+(function() {   //Using IIFE function
+ let a= [1, 2, 3, 4, 5];
+let n= a.length;
+let k= 2; 
+ k = k % n;
+ console.log("Using IIFE function :");
+ let arr=[];
+    for (let i = 0; i < n; i++) {
+        if (i < k) {
+        arr.push(a[n + i - k]+" ");
+        }else {
+        arr.push((a[i - k])+" ");
+        }
+    }console.log(arr.join(" "))
+})();
+
+//**********//
+
+function name() {   //Using anonymous function 
+ let a= [1, 2, 3, 4, 5];
+let n= a.length;
+let k= 2; 
+ k = k % n;
+   console.log("Using anonymous function :");
+   let arr1=[];
+    for (let i = 0; i < n; i++) {
+        if (i < k) {
+            arr1.push(a[n + i - k]+" ");
+        }else {
+            arr1.push((a[i - k])+" ");
+        }
+    }console.log(arr1.join(" "));
+} name();

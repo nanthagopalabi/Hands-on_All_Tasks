@@ -1,0 +1,25 @@
+  (function() {     //Using IIFE function
+  let arr=['nitin','geek','guvi','test','malayalam',"coc"];
+  console.log("Using IIFE function :");
+  for (let i =0; i<arr.length; i++) {
+  if(arr[i]===arr[i].split("").reverse("").join("")){
+  // let b=arr[2].split("").reverse("").join("")
+  let a=[];
+  console.log(arr[i]);
+  }
+        }
+})();
+
+//**********//
+
+function name() {   //Using anonymous function 
+let arr=['nitin','geek','guvi','test','malayalam',"coc"];
+  console.log("Using anonymous function :");
+  for (let i =0; i<arr.length; i++) {
+  if(arr[i]===arr[i].split("").reverse("").join("")){
+  // let b=arr[2].split("").reverse("").join("")
+  let a=[];
+  console.log(arr[i]);
+  }
+        }
+}name();
