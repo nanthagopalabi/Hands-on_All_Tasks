@@ -1,0 +1,13 @@
+// Using Arrow function
+var name=()=> {   
+let arr=['nitin','geek','guvi','test','malayalam',"coc"];
+  console.log("Using anonymous function :");
+  for (let i =0; i<arr.length; i++) {
+  if(arr[i]===arr[i].split("").reverse("").join("")){
+  // let b=arr[2].split("").reverse("").join("")
+  let a=[];
+  console.log(arr[i]);
+  }
+        }
+}
+name();

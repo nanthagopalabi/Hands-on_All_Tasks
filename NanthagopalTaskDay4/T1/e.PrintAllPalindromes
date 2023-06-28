@@ -12,7 +12,7 @@
 
 //**********//
 
-function name() {   //Using anonymous function 
+var name=function() {   //Using anonymous function 
 let arr=['nitin','geek','guvi','test','malayalam',"coc"];
   console.log("Using anonymous function :");
   for (let i =0; i<arr.length; i++) {
@@ -22,4 +22,5 @@ let arr=['nitin','geek','guvi','test','malayalam',"coc"];
   console.log(arr[i]);
   }
         }
-}name();
+}
+name();

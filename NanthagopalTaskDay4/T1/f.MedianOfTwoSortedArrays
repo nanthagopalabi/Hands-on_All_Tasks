@@ -11,7 +11,7 @@
   
 //**********//
 
-function name() {   //Using anonymous function 
+var name=function() {   //Using anonymous function 
   let arr1=[1,2,12,13,15];
   let arr2=[17,26,30,38,45];
   console.log("Using anonymous function :");
@@ -20,4 +20,5 @@ function name() {   //Using anonymous function
   let middle1=(arr3[Math.floor(sum/2)]);
   let middle2=(arr3[(Math.floor(sum/2)-1)]);
   console.log((middle1+middle2)/2);
-  }name();
+  }
+  name();
