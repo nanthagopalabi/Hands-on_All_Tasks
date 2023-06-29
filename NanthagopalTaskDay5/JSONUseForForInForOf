@@ -1,0 +1,19 @@
+ //for loop
+  const json = '{"name":"Nantha","age":32,"city":"Chennai","state":"Tamilnadu","Country":"India"}';
+  const obj  = JSON.parse(json);      //Convert to object 
+  for(const key in obj){         
+  console.log(obj[key]);
+  }
+  //for...in loop
+  for (const property in obj) {   
+  console.log(`${property}: ${obj[property]}`);
+}
+  //for...of loop
+const array1 = Object.keys(obj);     //Convert to Array of keys
+for (const element of array1) {   
+  console.log(element);
+}
+const array2 = Object.values(obj);  //Convert to Array of key Values
+for (const element1 of array2) {   
+  console.log(element1);
+}

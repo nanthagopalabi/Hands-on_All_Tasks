@@ -1,0 +1,74 @@
+{
+  "Experience":
+      {
+    "Office Admin cum Computer Operator":{
+     "Place": "Madurai",
+     "Organisation": "Raj Promotors",
+     "Duration": "Jan 2020 – Jan 2023"
+   },
+   "Quality Inspector": {
+      "Organisation": "Bhavani Industries pvt.ltd",
+     "Place": "Bidadi,Ramanagara,Karnataka",
+     "Duration": "May 2017 – May 2018"
+     }
+     },
+     
+  "Basic Details": 
+  {
+    "Name": "NANTHAGOPAL S ",
+    "Picture": "https://photos.app.goo.gl/efa992w7UiZ576aU7",
+    "Email": "welcum2nantha@gmail.com",
+    "Phone": "+91-9500586924",
+    "Linkedin": "www.linkedin.com/in/nantha-gopal-94026b9b",
+    "summary": {
+      "a": "Assigned the tasks of handling front desk and,ensured a high level of customer service was consistently maintained.",
+     "b": "Handled the responsibilities of ensuring that all the queries and complaints of clients are promptly attended.",
+    "c": "Helped staff to handle needs for individual clients to resolve issues.",
+    "d": "Performed the tasks of attending as well as answering incoming and outgoing calls.",
+    "e": "Ability to understand and interpret Engineering drawings, technical specifications and standards.",
+    "f": "Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality,standards for services, and evaluation of customer satisfaction."
+    },
+    "Location": {
+      "Address": "Kottampatty, Melur Taluk",
+      "PostalCode": "625103",
+      "City": "Madurai",
+      "State": "Tamilnadu"
+    }
+   },
+    "Education": [
+      "Degree",{
+    "Course": "Bachelor of Mechanical Engineering",
+    "Institution" : "Sri Raaja Raajan College of Engineering & Technology",
+    "Location": "Amaravathipudur, Karaikudi",
+    "Year": "2013-2017"
+    },
+    "HSC", {
+      "Institution": "G.H.S.Boys.School",
+      "Location": "Singampunari",
+      "Percentage": "67.57",
+      "Year": "2012-2013"
+    },
+    "SSLC", {
+      "Institution": "G.H.S.School",
+      "Location": "Kottampatti",
+      "Percentage": "89.40",
+      "Year": "2010-2011"
+    }
+    ],
+    "Technical Qualification":{
+        "1": "MS Office",
+        "2": "Typing skills in Tamil & English"
+        },
+    "languages": 
+    {
+          "Tamil": "Profecient",
+          "English": "Intermediate"
+    },
+  "Skills":
+      {
+        "1": "Communication Skills",
+        "2": "Problem solving Skills",
+        "3": "Leadership",
+        "4": "Adaptability"
+      }
+    }

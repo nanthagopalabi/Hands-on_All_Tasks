@@ -1,0 +1,10 @@
+ // For Each loop
+ const json = '{"name":"Nantha","age":32,"city":"Chennai","state":"Tamilnadu","Country":"India"}';
+ const obj  = JSON.parse(json);
+ Object.keys(obj).forEach(key => {   //print keys followed by values
+ console.log(key, obj[key]);
+ });
+ Object.values(obj).forEach(val => { //print values
+ console.log(val);
+ });
+
