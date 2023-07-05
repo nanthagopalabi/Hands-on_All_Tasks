@@ -1,0 +1,67 @@
+class PersonDetails {
+constructor(firstName,lastName,age,gender,email,city,state,postalcode) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.gender = gender;
+    this.email = email;
+    this.city = city;
+    this.state = state;
+    this.postalcode = postalcode;
+  }
+  getFullName() {
+    return (`${this.firstName+this.lastName}`);
+  }
+  getAge() {
+    return this.age;
+  }
+  getGender() {
+    return this.gender;
+  }
+  getEmail() {
+    return this.email;
+  }
+  getCity() {
+    return this.city;
+  }
+  getState() {
+    return this.state;
+  }
+  getPostalCode() {
+    return this.postalcode;
+  }
+  setFirstName(firstName) {
+    this.firstName = firstName;
+  }
+  setLastName(lastName) {
+    this.lastName = lastName;
+  }
+  setAge(age) {
+    this.age = age;
+  }
+  setGender(gender) {
+    this.gender = gender;
+  }
+  setEmail(email) {
+    this.email = email;
+  }
+  setCity(city) {
+    this.city = city;
+  }
+  setState(state) {
+    this.state = state;
+  }
+  setPostalCode(postalcode) {
+    this.postalcode = postalcode;
+  }
+}
+let person1 = new PersonDetails("Nantha", "gopal", 27,"Male","welcum2nantha@gmail.com","Madurai","Tamilnadu","625 001");
+console.log("Name:",person1.getFullName()); 
+console.log("Age:",person1.getAge()); 
+console.log("Gender:",person1.getGender()); 
+console.log("E-mail:",person1.getEmail());
+console.log("City:",person1.getCity());
+console.log("State:",person1.getState());
+console.log("Postal Code:",person1.getPostalCode());
+person1.age=31;          //setting method access
+console.log(person1.getAge());

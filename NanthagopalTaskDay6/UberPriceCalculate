@@ -1,0 +1,23 @@
+class UberPriceCalculator {
+  _distance: any;
+  _cabType: any;
+  constructor(distance: number, cabType: string) {
+    this._distance = distance;
+    this._cabType = cabType;
+  }
+  calculatePrice() {
+      let cabTypes = { mini: { baseFare: 50, ratePerKm: 10 },
+                       sedan: { baseFare: 75, ratePerKm: 12 },
+                       prime: { baseFare: 100, ratePerKm: 15 } }; 
+                       
+    if (!cabTypes.hasOwnProperty(this._cabType)) {
+      return 'Invalid cab type';
+    }
+    let { baseFare, ratePerKm } = cabTypes[this._cabType];
+    let price = baseFare + ratePerKm * this._distance;
+     return price;
+  }
+}
+let ride = new UberPriceCalculator(15, 'mini');
+let price = ride.calculatePrice();
+console.log(`The price for the Uber ride is ${price}`)

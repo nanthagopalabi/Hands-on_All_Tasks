@@ -1,0 +1,41 @@
+class Circle {
+  constructor(radius, color) {
+    this.firstRadius = radius;
+    this.firstColor = color;
+  }
+  getRadius(){
+    return this.firstRadius;
+    };
+  setRadius(value){
+    this.firstRadius = value;
+    };
+  getColor(){
+   return this.firstColor;
+    };
+  setColor(value){
+    this.firstColor = value;
+    };
+  toString(){
+    return `Circle[radius=${this.firstRadius},color=${this.firstColor}]`;
+  }
+  getArea(){
+    return Math.PI * this.firstRadius * this.firstRadius;
+    };
+  getCircumference(){
+    return 2 * Math.PI * this.firstRadius;
+    };
+}
+let cir = new Circle(1.0, "red");
+let cir1=new Circle(1.0,"red");
+console.log(cir1);
+console.log("Circle radius:",cir1.firstRadius.toFixed(2));
+console.log("Circle radius:",cir1.firstRadius.toFixed(2),"Circle color:",cir1.firstColor);
+console.log("Get Method:",cir.getRadius().toFixed(2));
+cir.setRadius(7.78);
+console.log("Set Method:",cir.firstRadius.toFixed(2));
+console.log("Get Method:",cir.getColor());
+cir.setColor("green");
+console.log("Set Method:",cir.firstColor);
+console.log("String:",cir.toString());
+console.log("Get Method:",cir.getArea().toFixed(2));
+console.log("Get Method:",cir.getCircumference().toFixed(2));

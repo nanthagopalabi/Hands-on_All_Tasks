@@ -1,0 +1,25 @@
+class Movie {
+  constructor(title, studio, rating = "PG"){
+    this.title = title;
+    this.studio = studio;
+    
+    if(rating === "")    
+    {
+      this.rating = "PG";
+    }
+    else {
+      this.rating = rating;
+    }
+  }
+ getPG(arr) {
+    return arr;
+  }
+}
+let film = new Movie("Casino Royale", "Eon Productions", "PG-13");
+let sampleArray = [
+  {title: "Casino Royale", studio: "Eon Productions", rating: "PG-13"},
+  {title: "SitaRam", studio: "Vyjayanthi Movies", rating: "PG-8.6" },
+  {title: "Vikram", studio: "RaajKamal Flims", rating: "PG-8.3" }];
+
+let boxOffice = film.getPG(sampleArray);
+console.log(boxOffice);
