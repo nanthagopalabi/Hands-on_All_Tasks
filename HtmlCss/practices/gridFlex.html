@@ -8,7 +8,7 @@
     <style>
         .BigBox {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
             grid-gap: 10px;
             border: 5px solid black;
             padding: 10px;
@@ -24,7 +24,7 @@
             display: flex;
             /* flex-direction: column; */
             /* flex-wrap: wrap; */
-            flex-flow: column wrap;
+            flex-flow: row wrap;
             justify-content: space-around;
             align-content: center;
             border: 5px solid rgb(1, 1, 17);
@@ -33,7 +33,7 @@
         }
 
         .newflex {
-            flex: 0 0 auto;
+            flex: 1 1 auto;
             border: 3px solid rgb(232, 230, 235);
             background-color: cornflowerblue;
             margin: 10px;
@@ -44,7 +44,7 @@
 <body>
     <h1>Grid practice</h1>
     <div class="BigBox">
-        <div class="new" style="grid-column: 2; grid-row:2">Small1</div>
+        <div class="new" style="grid-column: 2; grid-row:1">Small1</div>
         <div class="new">Small2</div>
         <div class="new">Small3</div>
         <div class="new">Small4</div>
