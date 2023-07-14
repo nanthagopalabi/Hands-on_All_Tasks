@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .BigBox {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            border: 5px solid black;
+            padding: 10px;
+            background-color: chocolate;
+        }
+
+        .new {
+            border: 1px solid blueviolet;
+            background-color: cornflowerblue;
+        }
+
+        .BigBox2 {
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-content: center;
+            border: 5px solid rgb(1, 1, 17);
+            padding: 10px;
+            background-color: rgb(210, 30, 90);
+        }
+
+        .newflex {
+            flex: 0 0 auto;
+            border: 3px solid rgb(232, 230, 235);
+            background-color: cornflowerblue;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grid practice</h1>
+    <div class="BigBox">
+        <div class="new" style="grid-column: 2; grid-row:2">Small1</div>
+        <div class="new">Small2</div>
+        <div class="new">Small3</div>
+        <div class="new">Small4</div>
+        <div class="new">Small5</div>
+        <div class="new">Small6</div>
+        <div class="new">Small7</div>
+        <div class="new">Small8</div>
+        <div class="new">Small9</div>
+    </div>
+    <h2>Flex practice</h2>
+    <div class="BigBox2">
+        <div class="newflex">large1</div>
+        <div class="newflex">large2</div>
+        <div class="newflex">large3</div>
+        <div class="newflex">large4</div>
+        <div class="newflex">large5</div>
+        <div class="newflex">large6</div>
+    </div>
+
+</body>
+
+</html>
