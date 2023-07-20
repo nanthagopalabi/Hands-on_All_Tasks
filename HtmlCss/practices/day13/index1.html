@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="para1">Div 1</div>
+        <p class="para">Item1</p>
+        <p class="para">Item2</p>
+        <p class="para">Item3</p>
+        <p class="para">Item4</p>
+        <p class="para">Item5</p>
+    </div>
+    <script>
+        const ele = document.createElement("div");
+        ele.innerText = "hi, hello";
+        document.body.append(ele);
+
+        const para = document.querySelector(".para");
+        para.style.color = "blue";
+
+        const paraElems = document.querySelectorAll(".para");
+        paraElems.forEach((ele) => {
+            ele.style.color = "red";
+        })
+    </script>
+</body>
+
+</html>

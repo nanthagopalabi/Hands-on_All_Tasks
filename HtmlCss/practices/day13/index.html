@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gu {
+            border: 1px;
+            padding: 5px;
+            background-color: rgb(255, 144, 144);
+        }
+
+        #at {
+            border: 20px;
+            background-color: rgb(189, 137, 238);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gu">Guvi</div>
+    <p id="at">The pen is mighter than the sword!!!</p>
+    <a href="https://www.zenclass.in/class">Zen Portal click here</a>
+    <script>
+        const ele = document.createElement("div");
+        ele.setAttribute("id", "gu");
+        ele.setAttribute("class", "main");
+        ele.innerText = "Hi Good Evening!!!";
+        // const ParentEle = document.getElementById("gu");
+        // ParentEle.appendChild(ele);
+
+        const nan = document.createElement("P");
+        // nan.setAttribute("id", "at");
+        // nan.setAttribute("class", "main");
+        nan.innerText = "Pen-Sword";
+        // const nand = document.getElementById("at");
+        // nand.appendChild(nan);
+
+        const nan1 = document.createElement("a");
+        nan1.setAttribute("target", "_blank");
+        nan1.setAttribute("href", "");
+        nan1.innerText = "Pen-Sword";
+        const preEle = document.getElementById("gu");
+        preEle.append(ele, nan, nan1);
+
+
+
+    </script>
+
+</body>
+
+</html>
