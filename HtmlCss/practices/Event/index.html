@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-top: 100px;
+            margin-left: 100px;
+            padding: 30px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            width: 400px;
+
+        }
+
+        .centerbox {
+            background-color: rgb(233, 151, 202);
+            margin: 10px
+        }
+
+        .result {
+            color: yellow;
+            background-color: rgba(54, 0, 27, 0.432)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Calculator!!!</h1>
+        <div class="centerbox">
+            <lable for="num1"> NUMBER 1:</lable>
+            <input type="number" id="num1" />
+        </div>
+        <div class="centerbox">
+            <lable for="num2"> NUMBER 2:</lable>
+            <input type="number" id="num2" />
+        </div>
+        <div class="centerbox">
+            <button onclick="CalciOpe('add')">Add</button>
+            <button onclick="CalciOpe('sub')">Sub</button>
+            <button onclick="CalciOpe('mul')">Mul</button>
+            <button onclick="CalciOpe('div')">Div</button>
+        </div>
+        <div class="result">
+            Result:
+            <span id="result"></span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="target">
+        <p id="text"> Click or Hover Practice Session</p>
+    </div>
+    <script>
+        const targetDiv = document.getElementById("target");
+        const textElement = document.getElementById("text");
+
+        //click Event
+        targetDiv.addEventListener("click", function () {
+            textElement.innerText = "Clicked!!!";
+            textElement.style.backgroundColor = "green";
+        });
+
+        //Mouseover Event
+        targetDiv.addEventListener("mouseover", function () {
+            textElement.innerText = "MouseOver!!!";
+            textElement.style.backgroundColor = "yellow";
+        });
+
+        //Mouseout Event
+        targetDiv.addEventListener("mouseout", function () {
+            textElement.innerText = "Mouseout!!!";
+            textElement.style.backgroundColor = "red";
+        });
+
+        //Keydown Event
+        document.addEventListener("keydown", function () {
+            console.log("Keydown event:", event.key);
+
+        });
+    </script>
+</body>
+
+</html>

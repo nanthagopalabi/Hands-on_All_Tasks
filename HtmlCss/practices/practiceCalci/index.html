@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        background-color: aqua;
+    }
+
+    .container {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 40px;
+        background-color: grey;
+    }
+
+    .box {
+        padding: 5px;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Calculator!!!</h1>
+        <div class="box">
+            <strong>
+                <lable for="input1">Number 1:</lable>
+                <input id="input1" type="number" placeholder="0">
+        </div>
+        <div class="box">
+            <lable for="input2">Number 2:</lable>
+            <input id="input2" type="number" placeholder="0">
+        </div>
+        </strong>
+        <div class="box">
+            <button id="add">+</button>
+            <button id="sub">-</button>
+            <button id="multi">*</button>
+            <button id="div">/</button>
+            <button onclick="clear()">CL</button>
+            <button onclick="del()">DEL</button>
+            <button id="modulus">%</button>
+        </div>
+
+
+        <div class="result">
+            Result:
+            <span id="result"></span>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
