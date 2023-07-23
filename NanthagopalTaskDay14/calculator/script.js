@@ -1,6 +1,3 @@
-// if(optscreen!=Number){
-// // alert("Only numbers are allowed");
-// }
     let outputscreeen=document.getElementById("optscreen");
     function display(num){
     outputscreeen.value += num;
@@ -64,6 +61,11 @@ function calculate(){
     numZero.addEventListener("click", function(){
         outputscreeen.value+= ('0');
     });
+
+    const numZero2=document.getElementById("zero2");
+    numZero2.addEventListener("click", function(){
+        outputscreeen.value+= ('00');
+    });
     const numDot=document.getElementById("dot");
     numDot.addEventListener("click", function(){
         outputscreeen.value+= ('.');
@@ -71,6 +73,20 @@ function calculate(){
     const addEle=document.getElementById("add");
     addEle.addEventListener("click", function(){
         outputscreeen.value+= ('+');
+    });
+    const addmplus=document.getElementById("mplus");
+    addmplus.addEventListener("click", function(){
+        outputscreeen.value+= ('+');
+    });
+
+    const addmminus=document.getElementById("mminus");
+    addmminus.addEventListener("click", function(){
+        outputscreeen.value+= ("-");
+    });
+
+    const addmrc=document.getElementById("mrc");
+    addmrc.addEventListener("click", function(){
+        outputscreeen.value=eval(outputscreeen.value);
     });
     const addEle1=document.getElementById("sub");
     addEle1.addEventListener("click", function(){
