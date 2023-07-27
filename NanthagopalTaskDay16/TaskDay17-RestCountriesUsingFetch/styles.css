@@ -1,0 +1,36 @@
+    .container {
+        background-color: rgb(54, 73, 73);
+
+    }
+
+    .card {
+        background-image: linear-gradient(to right, rgb(153, 161, 117), rgba(18, 21, 44, 0.897));
+        margin: 10px;
+    }
+
+    .card-title {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.897);
+        padding: 10px;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    button {
+        margin-left: 65px;
+        color: aliceblue;
+    }
+
+    .card-img-top {
+        padding: 25px;
+    }
+
+    #links {
+        color: aliceblue;
+    }
