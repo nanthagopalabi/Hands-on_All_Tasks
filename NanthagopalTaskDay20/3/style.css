@@ -1,0 +1,20 @@
+.container-fluid{
+    border: 4px dotted rgb(10, 35, 180);
+    padding:10px;
+    font-family: cursive;
+    font-size: larger;
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: rgb(175, 167, 54);
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/909075366/vector/world-poetry-day-card-with-feather.jpg?s=612x612&w=0&k=20&c=1eVMHd6vQ3DL29j7NbGzNPL6E7fYpbVnowy_UDLN1kU=");
+    background-size: 100%;
+}
+h1{
+    background-image: linear-gradient(rgba(40, 40, 245, 0.767),pink);
+    font-weight: 900;
+    padding: 10px;
+    
+}
