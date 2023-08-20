@@ -1,0 +1,57 @@
+.containerbox{
+  display:inline-block;
+  background-image: linear-gradient(white, rgba(36, 171, 212, 0.692));
+  font-weight: 800;
+  padding: 20px;
+  font-size: 25px;
+  flex-wrap: wrap;
+  flex-flow: row;
+  word-spacing: 80px;
+  padding: 30px; 
+}
+.container-fluid{
+  background-color:darkslategrey;
+  color:azure;
+  padding: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  overflow-wrap: normal;
+}
+
+.h-100 {
+  display:flex;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 15px;
+  background-image: linear-gradient(rgba(73, 78, 145, 0.925), white);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  margin: 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+#img1{
+  width: 100%;
+  height: 100%;
+}
+
+#card{
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.dropdown{
+  display: flex;
+  justify-content: end;  
+}
+
+#logo{
+  justify-content: start;
+}
+.drop{
+  display: flex;
+  justify-content: space-around;
+}
+
