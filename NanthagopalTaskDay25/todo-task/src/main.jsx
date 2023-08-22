@@ -6,8 +6,6 @@ import SampleList from './SampleList.jsx';
 import AddTodo from './AddTodo.jsx';
 
 function Root(props) {
-   
-
     const handleAddTodo = (id) => {
         setFirstSampleListId(id);
     };

@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
+import AddTodo from './AddTodo';
 
-function SampleList({ id, deleteTodo}) {
+function SampleList({ des,id, deleteTodo, addTodo}) {
     const [isOpen, setIsOpen] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
     const [name, setName] = useState( `Office Task-${id}`); 
-    const [description, setDescription] = useState('Default Description');
+    const [description, setDescription] = useState(`${des}`);
 
     const options = ['Completed', 'Not Completed'];
 
     const handleSave = () => {
         setIsEditing(false);
     };
+    const handleOptionClick = (selectedOption) => {
+        console.log(`${selectedOption}`);
+
+    };
+
 
     return (
         <div className='sampletags'>
@@ -37,13 +43,13 @@ function SampleList({ id, deleteTodo}) {
             {isOpen && (
                 <div>
                     {options.map(option => (
-                        <button key={option} onClick={() => console.log(option)}>
+                         <button key={option} onClick={() => handleOptionClick(option)}>
                             {option}
                         </button>
                     ))}
                 </div>
             )}
-
+        
             
 
             <button id="green" onClick={() => setIsEditing(!isEditing)}>

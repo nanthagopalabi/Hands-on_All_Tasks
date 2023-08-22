@@ -36,6 +36,7 @@ function App() {
     const deleteTodo = id => {
         const updatedTodos = todos.filter(todo => todo.id !== id);
         setTodos(updatedTodos);
+        
     };
 
     const addTodo = (name, description) => {
@@ -51,7 +52,7 @@ function App() {
     return (
         <div>
             <div className="App">
-                <h1>My Todo</h1>
+                <h1 id="h1">My Todo</h1>
                 <AddTodo addTodo={addTodo} />
                 {todos.map(todo => (
                 <SampleList key={todo.id} id={todo.id} name={todo.text} description={todo.description} deleteTodo={deleteTodo} />

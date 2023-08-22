@@ -105,3 +105,8 @@ form{
   color:brown;
   font-weight: 600; 
 }
+#h1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

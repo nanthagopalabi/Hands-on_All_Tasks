@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 
-function AddTodo({ addTodo, onAddTodo }) {
+function AddTodo({ addTodo }) {
     const [todoName, setTodoName] = useState('');
     const [todoDescription, setTodoDescription] = useState('');
 
     const handleSubmit = e => {
         e.preventDefault();
         if (todoName.trim() && todoDescription.trim()) {
-            addTodo(todoName, todoDescription);
-            onAddTodo(todoName); 
+            addTodo(todoName, todoDescription); 
             setTodoName('');
             setTodoDescription('');
         }
