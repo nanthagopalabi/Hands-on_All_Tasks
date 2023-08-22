@@ -67,3 +67,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.sampletags{
+  display: block;
+  padding: 15px;
+  background-color: aquamarine;
+  align-content: center;
+  margin: 30px;
+  width: 30%;
+  justify-content: space-around;
+  
+}
+form{
+  display: flex;
+  font-size: larger;
+  
+}
+.headtags{
+  padding: 20px;
+  display: flex; 
+  justify-content: center;
+
+}
+#tags{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+#green{
+  background-color: rgba(0, 192, 118, 0.877);
+}
+#red{
+  background-color:rgba(148, 5, 34, 0.884);
+}
+.dropdown{
+  display: flex;
+  justify-content: end;
+  color:brown;
+  font-weight: 600; 
+}
