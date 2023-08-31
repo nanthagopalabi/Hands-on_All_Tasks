@@ -1,0 +1,26 @@
+tbody{
+  background-color: rgba(128, 128, 128, 0.514);
+  padding: 25px;
+  flex-wrap: wrap;
+}
+.btn-success{
+  color: green;
+}
+.btn-danger{
+  color: red;
+}
+.editforms{
+  display: flex;
+  margin-left: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size:30px;
+  flex-wrap: wrap;
+}
+input{
+  font-size: 30px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
