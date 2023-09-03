@@ -21,7 +21,7 @@ function BookEdit() {
 
   const validationSchema = Yup.object().shape({
     ISBN_Number: Yup.string()
-      .matches(/^\d{3}-\d{1}-\d{5}-\d{3}-\d{1}$/, 'Invalid ISBN format (e.g., 000-0-00000-000-0)')
+      .matches(/^(?:\d{10}|\d{13})$/, 'Invalid ISBN format (e.g., 000-0-00000-000-0)')
       .required('ISBN number is required'),
   });
 
