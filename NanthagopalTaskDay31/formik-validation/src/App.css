@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+.card{
+    overflow: auto;
+    width:max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    overflow: auto;
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+.divbtn{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.table.table-bordered{
+    width: 100%;    
+}
+.authordetails{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+.form-group{
+    padding: 7px;
+}
+.titleHead{
+    text-align: center;
+    font-weight: 700;
+    flex-wrap: wrap;
+}

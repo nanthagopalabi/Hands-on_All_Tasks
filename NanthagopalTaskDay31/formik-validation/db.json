@@ -1,0 +1,59 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Animal Stories",
+      "author": {
+        "AuthorName": "Peter Hoey",
+        "BirthDate": "03-09-1941",
+        "Biography": "Brother and sister artists Peter and Maria Hoey live on opposite coasts but work closely together. Trading drawings back and forth from their studios in Northern California and New York. The Hoeys began writing and drawing comics in Blab! Magazine in the late 1990s, then launched their self-published comic book series, Coin-Op, in 2008. Their 2018 Coin-Op Comics Anthology, published by Top Shelf, earned a starred review from Publishers Weekly. Their self-published comics have been nominated twice for Eisner Awards. Animal Stories is their first full-length graphic novel."
+      },
+      "ISBN_Number": "978-1-60309-502-0",
+      "PublicationDate": "03-15-2022"
+    },
+    {
+      "id": 2,
+      "title": "The Delicacy",
+      "author": {
+        "AuthorName": "James Albon",
+        "BirthDate": "12-02-1990",
+        "Biography": "James Albon was born in Cambridge, England but lived most of his life in the north-east of Scotland, never picking up the accent and constantly being mistaken for a tourist. He studied illustration at Edinburgh College of Art, went on to a postgraduate scholarship at the Royal Drawing School in London, and was awarded the Gwen May award from the Royal Society of Painter-Printmakers"
+      },
+      "ISBN_Number": "978-1-60309-492-4",
+      "PublicationDate": "06-08-2021"
+    },
+    {
+      "id": 3,
+      "title": "Doughnuts and Doom",
+      "author": {
+        "AuthorName": "Balazs Lorinczi",
+        "BirthDate": "15-07-1984",
+        "Biography": "Balazs Lorinczi is an illustrator and graphic novelist with some animation and filmmaking background. He grew up in Hungary but now lives in Dundee, Scotland."
+      },
+      "ISBN_Number": "978-1-60309-513-6",
+      "PublicationDate": "09-20-2022"
+    },
+    {
+      "id": 4,
+      "title": "Kodi",
+      "author": {
+        "AuthorName": "Jared Cullum",
+        "BirthDate": "05-03-1985",
+        "Biography": "Jared Cullum was born in 1985 in Johnson City, TN. He is a cartoonist, writer, and painter with a deep passion for connecting with people through visual storytelling. Between developing stories, he teaches traditional painting and anatomy and spends his days exploring the lessons of 19th-century painting for creators today. He has also written and painted stories for Boom/Archaia and Jim Henson Productions, working on such titles as Planet of the Apes, Labyrinth, Fraggle Rock, and Storyteller. He lives in Pittsburgh, PA."
+      },
+      "ISBN_Number": "978-1-60309-513-6",
+      "PublicationDate": "08-25-2020"
+    },
+    {
+      "id": 5,
+      "title": "Junkwraith",
+      "author": {
+        "AuthorName": "Ellinor Richey",
+        "BirthDate": "03-09-1992",
+        "Biography": "Ellinor Richey loves bringing imaginary things to life, whether this be through game concepts, comic art or ink illustrations. When not thinking about comics, she loves thinking about animation, playing the clarinet and pine trees in sunsets. She lives with her plants in a small studio apartment overlooking the Gothenburg harbor in Sweden."
+      },
+      "ISBN_Number": "978-1-60309-500-6",
+      "PublicationDate": "01-18-2022"
+    }
+  ]
+}
