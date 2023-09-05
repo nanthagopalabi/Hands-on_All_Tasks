@@ -54,17 +54,6 @@
       },
       "ISBN_Number": "978-1-60309-500-6",
       "PublicationDate": "01-18-2022"
-    },
-    {
-      "id": 99,
-      "title": "bhhbh",
-      "ISBN_Number": 7675545676870,
-      "PublicationDate": "2023-08-28",
-      "author": {
-        "AuthorName": "njnjn",
-        "BirthDate": "2023-09-03",
-        "Biography": "uhuh"
-      }
     }
   ]
 }
