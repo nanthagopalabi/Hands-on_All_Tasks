@@ -1,0 +1,6 @@
+http://127.0.0.1:3000/mentor
+http://127.0.0.1:3000/student
+http://127.0.0.1:3000/mentor/650d68302265e47672efbfba/assign
+http://127.0.0.1:3000/student/650d6dba2265e47672efbfc4/assignMentor/:650d6da32265e47672efbfc2
+http://127.0.0.1:3000/mentor/650d68302265e47672efbfba/students
+http://127.0.0.1:3000/student/650d6dba2265e47672efbfc4/mentors
