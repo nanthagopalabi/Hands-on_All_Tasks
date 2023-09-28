@@ -22,7 +22,7 @@ function ResetNewPassword() {
     }
 
     try {
-      const response = await axios.post('https://6515c15bcf81004207cf653a--chic-entremet-8ee05c.netlify.app//confirmation', formData);
+      const response = await axios.post('https://6515c15bcf81004207cf653a--chic-entremet-8ee05c.netlify.apps/confirmation', formData);
       console.log(response.data);
       navigate('/Home');
     } catch (error) {
