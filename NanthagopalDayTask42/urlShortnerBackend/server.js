@@ -12,12 +12,12 @@ require("dotenv").config();
 const app = express();
 
 // Define CORS options
-const corsOptions = {
-  origin: "https://6515c15bcf81004207cf653a--chic-entremet-8ee05c.netlify.app", // Replace with the origin of your frontend application
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true, // Enable credentials (cookies, authorization headers)
-  optionsSuccessStatus: 204, // HTTP status code for successful preflight requests
-};
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://6515dd27fdc0d30a1d9d60ef--chic-entremet-8ee05c.netlify.app');
+  // Add other necessary CORS headers
+  next();
+});
+
 
 app.use(cors(corsOptions)); // Use cors middleware with the defined options
 app.use(bodyParser.json());
