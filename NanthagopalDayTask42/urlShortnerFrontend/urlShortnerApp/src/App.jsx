@@ -22,7 +22,7 @@ function App() {
     <Router>
       <div className="App">
         <header>
-          <h1>MERN Stack JWT Authentication!</h1>
+          <h1>MERN Stack User Authentication!</h1>
           {token && <button onClick={logout}>Logout</button>}
         </header>
         <main>
