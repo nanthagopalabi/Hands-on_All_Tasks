@@ -13,7 +13,7 @@ const app = express();
 
 // Define CORS options
 const corsOptions = {
-  origin: "*", // Replace with the origin of your frontend application
+  origin: "https://6515c15bcf81004207cf653a--chic-entremet-8ee05c.netlify.app/", // Replace with the origin of your frontend application
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // Enable credentials (cookies, authorization headers)
   optionsSuccessStatus: 204, // HTTP status code for successful preflight requests
