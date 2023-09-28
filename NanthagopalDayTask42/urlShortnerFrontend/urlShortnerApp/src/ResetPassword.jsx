@@ -10,7 +10,7 @@ const ResetPassword = ({ setToken }) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/reset-password', {
+      const response = await axios.post('https://6515c15bcf81004207cf653a--chic-entremet-8ee05c.netlify.app//reset-password', {
         email: email, // Include the email in the request body
       });
 
