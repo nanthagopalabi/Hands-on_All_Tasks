@@ -1,15 +1,24 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #bbb9b9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-fill-color: #423283;
+    background-image: url("https://img.freepik.com/free-vector/fresh-sandwich-chalkboard-background-advertisement-poster_1284-19550.jpg?w=740&t=st=1703004211~exp=1703004811~hmac=6f3339e1a8a448e45fbae9de1884a3ca2a557aebe4d245640c6b00f8ddb0f8a1");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
 .container {
     max-width: 600px;
-    margin: 20px;
+    height:fit-content;
+    margin-left: 28%;
     padding: 20px;
-    background-image: linear-gradient(brown,white,green); 
+    background-image: url("https://img.freepik.com/premium-photo/set-bowls-various-dip-sauces_136595-15257.jpg?w=360");
+    background-repeat:no-repeat;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 6);
+    background-position: center;
+    background-size: cover;
+    background-image: rgba(255, 255, 255, 0.733);
 }
 
 form {
@@ -18,9 +27,9 @@ form {
 }
 
 label {
-    display: block;
+    display: flex;
     margin-bottom: 5px;
-    font-size: 18px;    
+    font-size: 18px;  
 }
 
 input[type="text"],
@@ -33,8 +42,8 @@ input[type="checkbox"] {
 button {
     display: flex;
     padding: 10px 16px;
-    background-color: #4d2ddb;
-    color: #fff;
+    background-color: #442daa;
+    -webkit-text-fill-color: #ddd;
     font-size: large;
     border: none;
     border-radius: 6px;
@@ -60,4 +69,8 @@ th {
 #dataTable{
     display:flex;
     flex-wrap: wrap;
+}
+h1{
+    font-family:cursive;
+    lighting-color: salmon;
 }
