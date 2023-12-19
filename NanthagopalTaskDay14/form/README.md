@@ -2,7 +2,7 @@
 
 This repository contains a simple and interactive form created using JavaScript, CSS, and HTML. The form allows users to input personal information, select gender, choose preferred food items, and specify their location (state and country). The submitted data is dynamically displayed in a table below the form through DOM manipulation.
 
-## Prerequisites
+## Prerequisites   
 
 Ensure you have a modern web browser that supports JavaScript.
 
@@ -11,7 +11,7 @@ Ensure you have a modern web browser that supports JavaScript.
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/nanthagopalabi/DOM_Manipulation_FORM.git
     ```
 
 2. Open the `index.html` file in your preferred web browser.
@@ -41,6 +41,7 @@ Ensure you have a modern web browser that supports JavaScript.
 - [Bootstrap](https://getbootstrap.com/): CSS framework for styling.
 - [Bootstrap-select](https://developer.snapappointments.com/bootstrap-select/): Enhances standard select elements.
 - [Bootstrap-select-country](https://github.com/2amigos/bootstrap-select-country): Adds flags to the country select dropdown.
+- [Deployment-URL](https://enchanting-axolotl-75e44f.netlify.app/)
 
 ## Scripts
 
@@ -57,3 +58,6 @@ Ensure you have a modern web browser that supports JavaScript.
 - Thanks to the developers of Bootstrap, Bootstrap-select, and Bootstrap-select-country for creating and maintaining these libraries.
 
 Feel free to customize and extend this form as needed for your projects. Happy coding!
+
+## Deployment URL
+The project is live and deployed at https://enchanting-axolotl-75e44f.netlify.app/
