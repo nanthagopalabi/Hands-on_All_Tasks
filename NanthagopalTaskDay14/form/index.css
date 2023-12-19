@@ -10,21 +10,17 @@ body {
     background-image: linear-gradient(brown,white,green); 
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 6);
-    
 }
 
 form {
-    /* display: flex; */
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
-
 label {
     display: block;
     margin-bottom: 5px;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 
 input[type="text"],
@@ -59,4 +55,9 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+#dataTable{
+    display:flex;
+    flex-wrap: wrap;
 }
